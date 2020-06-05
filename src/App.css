@@ -8,11 +8,15 @@
 }
 
 body {
-  background: url('./images/bg-mobile.svg') cover no-repeat;
+  background: hsl(257, 40%, 49%) url('./images/bg-mobile.svg') center no-repeat;
+  background-size: cover;
+  padding: 2.5rem 0;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* align-items: center; */
   min-height: 100vh;
 }
 
@@ -31,4 +35,9 @@ img {
 
 p {
   line-height: 2;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
 }

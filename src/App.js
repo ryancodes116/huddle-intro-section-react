@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Logo from './components/Logo';
+import Details from './components/Details';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Logo />
+      <Details />
+      <Footer />
     </div>
   );
 };
