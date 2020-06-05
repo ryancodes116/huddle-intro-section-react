@@ -23,9 +23,40 @@
   border: none;
   border-radius: 2rem;
   width: 70%;
+  max-width: 260px;
   cursor: pointer;
 }
 
 .btn:hover {
   opacity: 0.9;
+}
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .detailsText {
+    width: 45%;
+  }
+
+  .detailsImage {
+    width: 55%;
+    margin-bottom: 0;
+    margin-right: 4rem;
+  }
+
+  .btn {
+    width: 40%;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .title {
+    font-size: 2.5rem;
+  }
 }

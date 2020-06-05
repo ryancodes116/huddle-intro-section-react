@@ -39,5 +39,17 @@ p {
 
 .container {
   width: 85%;
+  max-width: 510px;
   margin: 0 auto;
+}
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .body {
+    background-image: url('./images/bg-desktop.svg');
+  }
+
+  .container {
+    max-width: none;
+  }
 }

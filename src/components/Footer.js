@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import styles from '../styles/Footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -9,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={classNames('container', styles.footer)}>
       <a className={styles.iconLink} href="www.facebook.com" target="_blank">
         <FontAwesomeIcon icon={faFacebookF} />
       </a>

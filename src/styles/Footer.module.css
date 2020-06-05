@@ -12,5 +12,20 @@
   margin-right: 1rem;
 }
 
+.iconLink:first-of-type {
+  padding: 0.3rem 0.6rem;
+}
+
+.iconLink:last-of-type {
+  margin-right: 0;
+}
+
 .iconLink:hover {
+}
+
+/* Media Queries */
+@media (min-width: 950px) {
+  .footer {
+    justify-content: flex-end;
+  }
 }
